@@ -8,7 +8,7 @@ $managerArtist = new ArtistManager($pdo);
 if(isset($_POST['nom'])){
 	$message = $managerArtist->addArtiste($_POST['nom']);
 }
-
+//test
 ?>
 <!DOCTYPE html>
 <html>
